@@ -1,0 +1,13 @@
+We designed our display(with LUT) to represent  the negative numbers.
+For an example if the answer we have to represent is neagatie seven, we designed the seven segment to represent number seven and we mapped a LED to light up to indicate it as a negative number.
+The corresponding LED which lights up if the answer is a negative is LED 10.
+
+
+inputs   :-  Reset     -  btnC ( U18 )
+
+outputs  :-  Zero      -  LED 14 ( P1 )
+	     Negative  -  LED 10 ( W3 )
+	     Overflow  -  LED 15 ( L1 )
+
+	     Output    -  LED 0 (U16) , LED 1 (E19) , LED 2 (U19) , LED 3 (V19)
+			  ( LSB )                                     ( MSB )
